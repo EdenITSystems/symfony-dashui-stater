@@ -11,19 +11,10 @@ import './styles/app.scss';
 // you can specify whith plugins you need
 import { Tooltip, Toast, Popover } from 'bootstrap';
 
-import './js/main'
-import './js/copyButton'
-import './js/feather'
-import './js/sidebarMenu'
-import '../node_modules/jquery/dist/jquery'
-import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
-import '../node_modules/jquery-slimscroll/jquery.slimscroll'
-import '../node_modules/feather-icons/dist/feather'
-import '../node_modules/prismjs/components/prism-core'
-import '../node_modules/prismjs/components/prism-markup'
-import '../node_modules/prismjs/plugins/line-numbers/prism-line-numbers'
-import '../node_modules/apexcharts/dist/apexcharts'
-import '../node_modules/dropzone/dist/dropzone'
+import 'bootstrap/dist/js/bootstrap'
+import 'jquery/dist/jquery'
+import 'jquery-slimscroll/jquery.slimscroll'
+import 'feather-icons/dist/feather'
 
 // start the Stimulus application
 import './bootstrap';
